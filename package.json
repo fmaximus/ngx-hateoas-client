@@ -18,7 +18,8 @@
     "test": "ng test",
     "test-flow": "ng test --browsers=ChromeHeadless --watch=false --progress=false",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prepack": "npm run build-prod-win"
   },
   "private": true,
   "dependencies": {
